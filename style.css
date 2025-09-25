@@ -1,0 +1,132 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: "Alan Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container {
+    padding: 30px;
+}
+
+.section-title {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.section-title__button1 {
+    padding: 5px;
+    border: none;
+    background-color: black;
+    color: white;
+}
+
+.section-title__button1:hover {
+    padding: 5px;
+    background-color: white;
+    color: black;
+    border-radius: 3px;
+}
+
+.section-title__button2 {
+    padding: 5px;
+    border: none;
+    background-color: black;
+    color: white;
+}
+
+.section-title__button2:hover {
+    padding: 5px;
+    background-color: white;
+    color: black;
+    border-radius: 3px;
+}
+
+.section-title__button3 {
+    padding: 5px;
+    border: none;
+    background-color: black;
+    color: white;
+}
+
+.section-title__button3:hover {
+    padding: 5px;
+    background-color: white;
+    color: black;
+    border-radius: 3px;
+}
+
+
+.section-two,
+.section-three,
+.section-four,
+.section-five {
+    display: inline-block;
+    border: solid black 2px;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    text-align: center;
+    height: 252px;
+}
+
+.section-two__desc,
+.section-three__desc,
+.section-four__desc,
+.section-five__desc {
+    font-weight: bolder;
+}
+
+.section-two__order,
+.section-three__order,
+.section-four__order,
+.section-five__order {
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 2px;
+    border-radius: 2px;
+    position: relative;
+}
+
+.menu {
+    text-align: center;
+}
+
+.section-contact {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.section-contact__table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-contact__submit {
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background-color: none;
+    background-color: yellow;
+    border: none;
+    border-radius: 3px;
+}
+
+.section-contact__form {
+    align-items: center;
+    width: 100%;
+}
